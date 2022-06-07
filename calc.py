@@ -6,10 +6,10 @@ import sys
 #       because I use one stack with maximum size n to store the expression as I loop through the input.
 #
 # Code clarity: please follow the comments
-# Abstraction: I ultilize stack to optimize the program's time complexity
+# Abstraction: I ultilized stack to optimize the program's time complexity
 # Extensibility: 
-#       - for more operators (function type), I can either add more to the logic of evaluate_expr()
 #       - this program supports more than 2 arguments. Eg: (add 1 2 3 4 (multiply 2 3 5))
+#       - for more operators (function type), I can add more to the logic of evaluate_expr()
 #       - for more complex cases, I can move evaluate_expr() to a new file and build a new class
 # User experience:
 #       - for more complex case, I can move print_error to a new file and build a new class 
